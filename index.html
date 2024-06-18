@@ -182,7 +182,7 @@
 
 <div class="post">
     <a href="/2024/05/25/blog/">
-        <h2 class="post-title">blog</h2>
+        <h2 class="post-title">ctfshow之信息收集</h2>
     </a>
     <div class="category-and-date">
         
@@ -198,14 +198,50 @@
     <div class="description">
         <div class="content" v-pre>
             
-            <p>##哈哈哈哈</p>
+            <h2 id="web1"><a href="#web1" class="headerlink" title="web1"></a>web1</h2><p>右键查看源代码（Ctrl+u）</p>
+<h2 id="web2"><a href="#web2" class="headerlink" title="web2"></a>web2</h2><p>view-source:可以查看源代码</p>
+<h2 id="web3"><a href="#web3" class="headerlink" title="web3"></a>web3</h2><p>抓包，在响应头里面，但不知道怎么抓包</p>
+<h2 id="web4"><a href="#web4" class="headerlink" title="web4"></a>web4</h2><p>flag在robot.txt文件里</p>
+<p>robot.txt是一项爬虫协议，其中指明了什么地方不能爬</p>
+<p>User-agent: *<br>Disallow: &#x2F;private&#x2F;  &#x2F;&#x2F;不可以<br>Disallow: &#x2F;tmp&#x2F;    &#x2F;&#x2F;可以<br>总有人把后台地址写入robots，帮黑阔大佬们引路</p>
+<h2 id="web5"><a href="#web5" class="headerlink" title="web5"></a>web5</h2><p>php文件泄露</p>
+<h2 id="web6"><a href="#web6" class="headerlink" title="web6"></a>web6</h2><p>考察代码泄露。直接访问url&#x2F;<a target="_blank" rel="noopener" href="http://www.zip,获得flag/">www.zip,获得flag</a></p>
+<h2 id="web7"><a href="#web7" class="headerlink" title="web7"></a>web7</h2><p>考察git代码泄露，直接访问&#x2F;.git&#x2F;index.php</p>
+<h2 id="web8"><a href="#web8" class="headerlink" title="web8"></a>web8</h2><p>考察信息svn泄露,直接访问url&#x2F;.svn&#x2F;</p>
+<h2 id="web9"><a href="#web9" class="headerlink" title="web9"></a>web9</h2><p>考察vim缓存信息泄露，直接访问url&#x2F;index.php.swp&#x20;</p>
+<h2 id="web10"><a href="#web10" class="headerlink" title="web10"></a>web10</h2><p>参考cookie，直接抓包，在请求数据包看到flag,注{ }通过了url编码</p>
+<h2 id="web11"><a href="#web11" class="headerlink" title="web11"></a>web11</h2><p>通过dns检查查询flag <a target="_blank" rel="noopener" href="https://zijian.aliyun.com/">https://zijian.aliyun.com/</a> TXT 记录，一般指为某个主机名或域名设置的说明。</p>
+<p>查找flag.ctfshow.com域名下的txt记录</p>
+<h2 id="web12"><a href="#web12" class="headerlink" title="web12"></a>web12</h2><p>查看robots.txt文件，用户名admin。密码：在页面的最下方（就是客服电话号码</p>
+<h2 id="web13"><a href="#web13" class="headerlink" title="web13"></a>web13</h2><p>根据题目提示 技术文档 在页面下面发现 document 下载发现里面存在后台地址和用户名密码登录成功获 得flag</p>
+<h2 id="web14"><a href="#web14" class="headerlink" title="web14"></a>web14</h2><p>这是接触到的第一个困难的题。</p>
+<p>提示： 小0day:某编辑器最新版默认配置下，如果目录不存在，则会遍历服务器根目录有时候源码里面就能不经意间泄露重要（editor）的信息，默认配置害死人</p>
+<p>进入&#x2F;editor，在文件上传的哪里找到&#x2F;var&#x2F;www&#x2F;html&#x2F;nothinghere&#x2F;</p>
+<h2 id="web15"><a href="#web15" class="headerlink" title="web15"></a>web15</h2><p>ctf真好玩</p>
+<p>打开&#x2F;admin登录，点忘记密码，发现需要一个密保问题问在那个城市。返回主页面发现联系我们那里有一个qq邮箱地址，通过qq查询发现在西安。从而获取密码</p>
+<h2 id="web16"><a href="#web16" class="headerlink" title="web16"></a>web16</h2><p>考察PHP探针php探针是用来探测空间、服务器运行状况和PHP信息用的，探针可以实时查看服务器硬盘资源、内存占用、网卡 流量、系统负载、服务器时间等信息。 url后缀名添加&#x2F;tz.php 版本是雅黑PHP探针，然后查看phpinfo搜索flag</p>
+<h2 id="web17"><a href="#web17" class="headerlink" title="web17"></a>web17</h2><p>备份sql文件也会泄露信息</p>
+<h2 id="web18"><a href="#web18" class="headerlink" title="web18"></a>web18</h2><p>玩到120就可以了</p>
+<p>这是一个javascript 的游戏，游戏的目的就是让要赢，从js代码中可知，当score&gt;120时，且game_over这个参数为false时，即可赢，于是打开开发者模式中的console，直接赋值score&#x3D;130 game_over&#x3D;false 然后，执行游戏 的run() 即可得到 “你赢了，去幺幺零点皮爱吃皮看看”， 即，110.php 打开它，即得flag</p>
+<h2 id="web19"><a href="#web19" class="headerlink" title="web19"></a>web19</h2><p>i_want_a_36d_girl</p>
+<p>web20mdb文件是早期asp+access构架的数据库文件，文件泄露相当于数据库被脱裤了。</p>
+<p>mdb文件是早期asp+access构架的数据库文件 直接查看url路径添加&#x2F;db&#x2F;db.mdb 下载文件通过txt打开或者通过EasyAccess.exe打开搜索flag flag{ctfshow_old_database}</p>
 
             
         </div>
     </div>
     <div class="post-tags">
         
+        <span class="icon">
+            <i class="fa-solid fa-tags fa-fw"></i>
+        </span>
         
+        
+        
+        <span class="tag">
+            
+            <a href="/tags/%E6%85%A2%E6%85%A2%E5%8F%98%E6%88%90%E4%B8%80%E4%B8%AAweber/" style="color: #00a596">慢慢变成一个weber</a>
+        </span>
         
     </div>
     <a href="/2024/05/25/blog/" class="go-post">阅读全文</a>
