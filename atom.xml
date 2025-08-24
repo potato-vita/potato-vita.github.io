@@ -3,11 +3,11 @@
   <title>potatojiang`blog</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://potato-vita.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://potato-vita.github.io/"/>
   <updated>2025-08-24T01:36:09.468Z</updated>
-  <id>http://example.com/</id>
+  <id>https://potato-vita.github.io/</id>
   
   <author>
     <name>potatojiang</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>[CTF学习]-信息收集小结(web1-20)</title>
-    <link href="http://example.com/2025/08/24/CTF%E5%AD%A6%E4%B9%A0-%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86%E5%B0%8F%E7%BB%93-web1-20/"/>
-    <id>http://example.com/2025/08/24/CTF%E5%AD%A6%E4%B9%A0-%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86%E5%B0%8F%E7%BB%93-web1-20/</id>
+    <link href="https://potato-vita.github.io/2025/08/24/CTF%E5%AD%A6%E4%B9%A0-%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86%E5%B0%8F%E7%BB%93-web1-20/"/>
+    <id>https://potato-vita.github.io/2025/08/24/CTF%E5%AD%A6%E4%B9%A0-%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86%E5%B0%8F%E7%BB%93-web1-20/</id>
     <published>2025-08-24T00:57:06.000Z</published>
     <updated>2025-08-24T01:36:09.468Z</updated>
     
@@ -33,17 +33,17 @@
     
     
     
-    <category term="CTF学习" scheme="http://example.com/categories/CTF%E5%AD%A6%E4%B9%A0/"/>
+    <category term="CTF学习" scheme="https://potato-vita.github.io/categories/CTF%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="CTF, 信息收集， web" scheme="http://example.com/tags/CTF-%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86%EF%BC%8C-web/"/>
+    <category term="CTF, 信息收集， web" scheme="https://potato-vita.github.io/tags/CTF-%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86%EF%BC%8C-web/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2025/08/23/hello-world/"/>
-    <id>http://example.com/2025/08/23/hello-world/</id>
+    <link href="https://potato-vita.github.io/2025/08/23/hello-world/"/>
+    <id>https://potato-vita.github.io/2025/08/23/hello-world/</id>
     <published>2025-08-23T13:40:07.700Z</published>
     <updated>2025-08-23T13:40:07.700Z</updated>
     
