@@ -108,9 +108,9 @@
     <category term="Security" scheme="https://potato-vita.github.io/categories/Security/"/>
     
     
-    <category term="Web Security" scheme="https://potato-vita.github.io/tags/Web-Security/"/>
-    
     <category term="Seed-Labs" scheme="https://potato-vita.github.io/tags/Seed-Labs/"/>
+    
+    <category term="Web Security" scheme="https://potato-vita.github.io/tags/Web-Security/"/>
     
     <category term="SQL Injection" scheme="https://potato-vita.github.io/tags/SQL-Injection/"/>
     
@@ -135,11 +135,11 @@
     <category term="Security" scheme="https://potato-vita.github.io/categories/Security/"/>
     
     
+    <category term="Seed-Labs" scheme="https://potato-vita.github.io/tags/Seed-Labs/"/>
+    
     <category term="XSS" scheme="https://potato-vita.github.io/tags/XSS/"/>
     
     <category term="Web Security" scheme="https://potato-vita.github.io/tags/Web-Security/"/>
-    
-    <category term="Seed-Labs" scheme="https://potato-vita.github.io/tags/Seed-Labs/"/>
     
     <category term="JavaScript" scheme="https://potato-vita.github.io/tags/JavaScript/"/>
     
@@ -189,11 +189,11 @@
     <category term="Security" scheme="https://potato-vita.github.io/categories/Security/"/>
     
     
-    <category term="Seed-Labs" scheme="https://potato-vita.github.io/tags/Seed-Labs/"/>
-    
     <category term="Shellcode" scheme="https://potato-vita.github.io/tags/Shellcode/"/>
     
     <category term="Assembly" scheme="https://potato-vita.github.io/tags/Assembly/"/>
+    
+    <category term="Seed-Labs" scheme="https://potato-vita.github.io/tags/Seed-Labs/"/>
     
     <category term="Binary Security" scheme="https://potato-vita.github.io/tags/Binary-Security/"/>
     

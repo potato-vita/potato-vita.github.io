@@ -107,9 +107,9 @@
       
         <tags>
             
-            <tag> Web Security </tag>
-            
             <tag> Seed-Labs </tag>
+            
+            <tag> Web Security </tag>
             
             <tag> SQL Injection </tag>
             
@@ -138,11 +138,11 @@
       
         <tags>
             
+            <tag> Seed-Labs </tag>
+            
             <tag> XSS </tag>
             
             <tag> Web Security </tag>
-            
-            <tag> Seed-Labs </tag>
             
             <tag> JavaScript </tag>
             
@@ -200,11 +200,11 @@
       
         <tags>
             
-            <tag> Seed-Labs </tag>
-            
             <tag> Shellcode </tag>
             
             <tag> Assembly </tag>
+            
+            <tag> Seed-Labs </tag>
             
             <tag> Binary Security </tag>
             
