@@ -162,11 +162,11 @@
     <category term="Security" scheme="https://potato-vita.github.io/categories/Security/"/>
     
     
-    <category term="Seed-Labs" scheme="https://potato-vita.github.io/tags/Seed-Labs/"/>
-    
     <category term="Environment Variable" scheme="https://potato-vita.github.io/tags/Environment-Variable/"/>
     
     <category term="Set-UID" scheme="https://potato-vita.github.io/tags/Set-UID/"/>
+    
+    <category term="Seed-Labs" scheme="https://potato-vita.github.io/tags/Seed-Labs/"/>
     
     <category term="System Security" scheme="https://potato-vita.github.io/tags/System-Security/"/>
     
@@ -189,11 +189,11 @@
     <category term="Security" scheme="https://potato-vita.github.io/categories/Security/"/>
     
     
+    <category term="Seed-Labs" scheme="https://potato-vita.github.io/tags/Seed-Labs/"/>
+    
     <category term="Shellcode" scheme="https://potato-vita.github.io/tags/Shellcode/"/>
     
     <category term="Assembly" scheme="https://potato-vita.github.io/tags/Assembly/"/>
-    
-    <category term="Seed-Labs" scheme="https://potato-vita.github.io/tags/Seed-Labs/"/>
     
     <category term="Binary Security" scheme="https://potato-vita.github.io/tags/Binary-Security/"/>
     

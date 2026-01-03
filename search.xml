@@ -169,11 +169,11 @@
       
         <tags>
             
-            <tag> Seed-Labs </tag>
-            
             <tag> Environment Variable </tag>
             
             <tag> Set-UID </tag>
+            
+            <tag> Seed-Labs </tag>
             
             <tag> System Security </tag>
             
@@ -200,11 +200,11 @@
       
         <tags>
             
+            <tag> Seed-Labs </tag>
+            
             <tag> Shellcode </tag>
             
             <tag> Assembly </tag>
-            
-            <tag> Seed-Labs </tag>
             
             <tag> Binary Security </tag>
             
