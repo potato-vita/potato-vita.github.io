@@ -124,10 +124,7 @@
       }
       const t = saveToLocal.get('theme')
     
-          const now = new Date()
-          const hour = now.getHours()
-          const isNight = hour <= 6 || hour >= 18
-          if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+          if (t === undefined) activateLightMode()
           else if (t === 'light') activateLightMode()
           else activateDarkMode()
         
